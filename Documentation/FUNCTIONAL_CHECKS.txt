@@ -1,0 +1,55 @@
+PASS: New game resets stats
+PASS: Main weapon starts at level 1 outside auxiliary slots
+PASS: Unowned weapons are inactive
+PASS: Each eligible product has its own candidate
+PASS: Level-up excludes new weapons
+PASS: Draw without replacement
+PASS: Speed bonuses add against base speed
+PASS: Max HP upgrade does not heal
+PASS: Hit protection blocks repeated damage
+PASS: Pause reasons cannot resume each other
+PASS: Insufficient money cannot consume offer
+PASS: Purchase charges exactly once
+PASS: Acquire auxiliary Slow Field
+PASS: Acquire auxiliary Orbit
+PASS: Acquire auxiliary Slash
+PASS: Auxiliary cap and duplicate ownership
+PASS: Weapon level capped at 7
+PASS: Maxed/owned weapons excluded from reward pool
+PASS: 90/10 spawn weight boundary
+PASS: Experience opens paused reward choices
+PASS: Selecting a reward preserves ESC pause
+PASS: Queued level-ups resume after final choice
+PASS: Grapple protection blocks damage independently
+PASS: Spawn cap skips extra spawns
+PASS: Boss spawns once at configured time
+PASS: No ordinary spawns during boss phase
+PASS: Boss defeat clears enemies and enters intermission
+PASS: Boss defeat collects drops immediately
+PASS: Boss defeat clears enemy projectiles
+PASS: Boss defeat creates shop with three offers
+PASS: Shop opens within interaction distance
+PASS: All three shop items can be bought
+PASS: Reopening shop preserves sold inventory
+PASS: Next-stage button starts stage 2
+PASS: Stage 3 starts after stage 2 shop
+PASS: Final boss skips shop and missing Timeline advances to clear
+PASS: Final collection does not open level-up UI
+PASS: Hook flight starts without pull invulnerability
+PASS: Finite hook flight attaches before protected pull
+PASS: Release ends invulnerability and starts cooldown
+PASS: Release preserves limited pull inertia
+PASS: Holding after cooldown does not auto-fire
+PASS: Cancelling hook flight consumes cooldown
+PASS: Independent grapple protection survives normal hit timer expiry
+PASS: Piercing projectile hits each target once along swept path
+PASS: Piercing projectile stops at wall
+PASS: Projectile expires at configured lifetime
+PASS: Orbit blade damages actual contact target
+PASS: Orbit does not damage noncontact center target
+PASS: Persistent field slows without damage
+PASS: Disabling field removes slow
+PASS: Both drop kinds collect by proximity
+PASS: Death returns to title with time restored
+PASS: New game after death clears all run progress
+SUCCESS: All functional checks passed.

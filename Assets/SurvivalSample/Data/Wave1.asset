@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25099e81174ac4676b16a9c7135dde01, type: 3}
+  m_Name: Wave1
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  DisplayName: Stage 1
+  Enemies:
+  - Prefab: {fileID: 2196467889535945128, guid: e74af45eb7ef44a9b97829861df95eee, type: 3}
+    Weight: 100
+  SpawnInterval: 1
+  SpawnCount: 3
+  MaxAliveEnemies: 100
+  BossTime: 30
+  BossPrefab: {fileID: 5428428464520787066, guid: ff5acbe33ad0449d6842a7108caed48c, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/SurvivalSample/Scenes/SurvivalTitle.unity
+    guid: bc7ed8f510d8944dbb4102206556c4d8
+  - enabled: 0
+    path: Assets/SurvivalSample/Scenes/SurvivalGame.unity
+    guid: 1b81c1dffe23046cd997500b63bda2e1
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: f3b19dc7dd0c940c0833339b55ab617c
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 49cdce631dbac4b6e92cc3bf031b4262
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
